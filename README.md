@@ -1,7 +1,8 @@
-# js-lab-166
-### Lab 166 ES6: Object destructuring2
-ให้ใช้ Object destructuring โดยให้ a เท่ากับ 5 และ b เท่ากับ 10
+# js-lab-167
+### Lab 167 ES6: หาค่าa,b 1
+a และ b มีค่าเท่าไร
 
 ```JavaScript
-const obj = { prop: 5, prop2: 10 };
+let a, b;
+{ a, b } = {a: 1, b: 2};
 ```
